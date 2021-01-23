@@ -52,6 +52,7 @@ namespace GenericTypes
             // değişkene atayarak yeniledik. False değeri dönmesi durumunda, value değişkeninin boş kalmaması için bu yedeği kullanacağız.
             if (dictList.TryGetValue(key, out name))
             {
+                
                 Console.WriteLine("Search match available.");
                 Console.WriteLine(dictList[key]);
             }

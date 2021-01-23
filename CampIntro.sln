@@ -15,9 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicArrayExample", "Dyna
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OOP1", "OOP1\OOP1.csproj", "{F90265F8-D182-434A-967F-ACFE8293F974}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericTypes", "GenericTypes\GenericTypes.csproj", "{7EE4225F-05BC-420E-B3F6-2B428DD33060}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericTypes", "GenericTypes\GenericTypes.csproj", "{7EE4225F-05BC-420E-B3F6-2B428DD33060}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefandOut", "RefandOut\RefandOut.csproj", "{707C9126-8EA0-4A2B-AA90-4FBE9DCADF6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RefandOut", "RefandOut\RefandOut.csproj", "{707C9126-8EA0-4A2B-AA90-4FBE9DCADF6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyListExample", "MyListExample\MyListExample.csproj", "{4CC4638C-D487-4B65-B48A-FFDC95AA4580}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{707C9126-8EA0-4A2B-AA90-4FBE9DCADF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{707C9126-8EA0-4A2B-AA90-4FBE9DCADF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{707C9126-8EA0-4A2B-AA90-4FBE9DCADF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CC4638C-D487-4B65-B48A-FFDC95AA4580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CC4638C-D487-4B65-B48A-FFDC95AA4580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CC4638C-D487-4B65-B48A-FFDC95AA4580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CC4638C-D487-4B65-B48A-FFDC95AA4580}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
