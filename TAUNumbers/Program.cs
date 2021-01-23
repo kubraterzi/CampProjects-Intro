@@ -10,17 +10,18 @@ namespace TAUNumbers
     {
         static void Main(string[] args)
         {
-            int girdi = Convert.ToInt32(Console.ReadLine());
-            int sayac = 0;
-            for (int i = 0; i <= girdi; i++)
+            // TAU sayısı kendisi dahil tüm bölenlerinin sayısına bölünebilen sayılardır.
+            int input = Convert.ToInt32(Console.ReadLine());
+            int counter = 0;
+            for (int i = 0; i <= input; i++)
             {
-                if (i % girdi == 0)
+                if (i % input == 0)
                 {
-                    sayac++;
+                    counter++;
                 }
             }
 
-            if (girdi % sayac == 0)
+            if (input % counter == 0)
             {
                 Console.WriteLine("Tau Sayısıdır.");
             }
