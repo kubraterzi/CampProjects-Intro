@@ -1,10 +1,11 @@
-﻿using System;
+﻿using GameCenter.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace GameCenter.Concrete
 {
-    public class Campaign
+    public class Campaign : IEntity
     {
         public int CampaignID { get; set; }
         public string CampaignName { get; set; }
