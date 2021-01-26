@@ -16,7 +16,7 @@ namespace RefandOut
 
             static void DiziDegeriDegistir(out int[] yaramazlar)
             {
-                int[] sayilar = new int[] { 100, 200, 300 };
+                int[] sayilar = new int[] { 100, 200, 400 };
                 yaramazlar = sayilar; // 102
                 // yaramazlar[0] = 15; // eğer parametreler out olarak tanımlanmasaydı, tıpkı metot içerisindeki tüm işlemlerin fonksiyondan çıkınca etkilenmemiş olması gibi neticeyi
                 // etkilemezdi. Ancak out olduğu için adresi üzerinde değişiklik yapıldığı için çıktı 15, 200,300 olurdu.
