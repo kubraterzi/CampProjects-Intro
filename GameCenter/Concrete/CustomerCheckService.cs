@@ -7,11 +7,6 @@ namespace GameCenter.Concrete
 {
     public class CustomerCheckService : ICustomerCheckService
     {
-        //public CustomerCheckService(Customer customer)
-        //{
-        //    CustomerCheck(customer);
-        //}
-
         public bool CustomerCheck(Customer customer)
         {
             if (customer.CustomerIdentityKey == "123456" && customer.CustomerName=="KÜBRA" && customer.CustomerLastName=="TERZİ" && customer.DateofBirth == new DateTime(2001,02,15))
