@@ -9,7 +9,7 @@ namespace NetworkofCoffeeCompanies.Abstract
     {
         public virtual void Save(Customer customer)
         {
-            Console.WriteLine("Saved to Database : {0} {1} " , customer.CustomerName, customer.CustomerLastName);
+            Console.WriteLine("\nSaved to Database : {0} {1} " , customer.CustomerName, customer.CustomerLastName);
         }
     }
 }

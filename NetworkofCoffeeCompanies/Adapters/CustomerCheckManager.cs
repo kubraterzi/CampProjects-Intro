@@ -21,7 +21,6 @@ namespace NetworkofCoffeeCompanies.Concrete
             var state = await (client.TCKimlikNoDogrulaAsync(Convert.ToInt64(customer.CustomerNationalityID), customer.CustomerName.ToUpper(),
                 customer.CustomerLastName.ToUpper(), customer.DateofBirth.Year));
 
-            Console.WriteLine("\nLogin succesful!\n");
             return state.Body.TCKimlikNoDogrulaResult;
         }
 
