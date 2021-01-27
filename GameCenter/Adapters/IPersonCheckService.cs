@@ -8,6 +8,5 @@ namespace GameCenter.Adapters
     public interface IPersonCheckService
     {
         bool CheckIfRealPerson(Customer customer);
-        //static async Task<bool> CheckIfRealPerson(Customer customer);
     }
 }
