@@ -31,7 +31,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameCenter", "GameCenter\Ga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IdendityVerification", "IdendityVerification\IdendityVerification.csproj", "{CE9EEA36-00A8-4732-BB06-11EFADD70A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkofCoffeeCompanies", "NetworkofCoffeeCompanies\NetworkofCoffeeCompanies.csproj", "{722ABA8A-BA4D-4BDD-A3D9-CAF293FEF1D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NetworkofCoffeeCompanies", "NetworkofCoffeeCompanies\NetworkofCoffeeCompanies.csproj", "{722ABA8A-BA4D-4BDD-A3D9-CAF293FEF1D1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D348B834-7A82-49C8-90E0-3E1E380E350B}"
+	ProjectSection(SolutionItems) = preProject
+		SQLQueries\TotalGainGroupByProducts.sql = SQLQueries\TotalGainGroupByProducts.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQLQueries", "SQLQueries", "{54CF9337-AA09-4EB0-8A63-155E7BEDB11F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -102,6 +109,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D348B834-7A82-49C8-90E0-3E1E380E350B} = {54CF9337-AA09-4EB0-8A63-155E7BEDB11F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F233CB82-BDCB-4594-96C3-1A874359E299}
